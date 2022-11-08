@@ -1,0 +1,172 @@
+body {
+  background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Alice', serif;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#block {
+display: flex;
+flex-direction: row;
+}
+
+#box2{
+ align-content: center;
+ flex-wrap: wrap;
+ margin: 10px;
+ padding: 10px;
+
+}
+
+#box3 {
+display: flex;
+justify-content: center;
+margin-top: 70px;
+}
+#par {
+  font-size: 30px;
+  margin-right: 20px;
+  padding-right: 20px;
+  font-family: 'Abhaya Libre', serif;
+  text-align: center;
+
+}
+#btn {
+width: 40%;
+font-size: 25px;
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+font-family: 'Abhaya Libre', serif;
+box-shadow: 5px 10px #888888;
+
+
+}
+
+
+
+@media all and (max-width: 1200px){
+  h1 {
+    font-size: 45px;
+   align-content: center;
+  }
+  #container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  }
+
+  #box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #box3 {
+    display: flex;
+    margin-top: 100px;
+  }
+  #par {
+    font-size: 35px;
+    }
+    
+  #btn {
+    font-size: 30px;
+    position: fixed;
+    width: 60%;
+
+  }
+}
+
+@media all and (max-width: 1000px){
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    }
+    #box2 {
+margin: 10px;
+padding: 10px;
+    }
+  #box3 {
+display: flex;
+
+
+  }
+  #btn{
+    margin-top: 200px;
+  }
+}
+@media all and (max-width: 800px) {
+
+  #container {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+margin: 5px;
+padding: 5px;
+}
+#block {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+#box2 {
+  display: flex;
+  justify-content: center;
+ margin: 15px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#par {
+  font-size: 33px;
+text-align: center;
+position: fixed;
+
+}
+
+#box3 {
+display: flex;
+margin-top: 90px;
+
+}
+#btn {
+font-size: 25px;
+position: fixed;
+
+}
+}
+@media all and (max-width: 500px){
+
+h1 {
+  font-size: 20px;
+text-align: center;
+}
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+  
+
+    #par {
+      font-size: 16px;
+
+    }
+    #btn {
+    font-size: 16px;
+width: 40%;
+position: fixed;
+    }
+
+  }
